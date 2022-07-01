@@ -7,19 +7,18 @@ function App() {
     <>
       <form className="form">
         <div className="heading">LOGIN</div>
-        <div>
+        <div className="email">
           <label>
             Email:
           </label>
           <input type='email' placeholder='Enter email address' />
         </div>
-        <div>
+        <div className="password">
           <label>
-            password
+            Password:
           </label>
           <input type='password' placeholder='Enter password' />
         </div>
-
       </form>
     </>
   );
