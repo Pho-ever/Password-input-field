@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+
+.form {
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(218, 214, 214);
+  width: 35vw;
+  height: 35vh;
+  border-radius: 10px;
+}
