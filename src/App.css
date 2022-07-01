@@ -35,7 +35,6 @@ div {
   color: #fff;
   font-weight: 600;
   padding-bottom: .4rem;
-
 }
 
 .email,
@@ -55,4 +54,15 @@ input {
   border-radius: 5px;
   width: auto;
   font-size: .8rem;
+  height: 1.2rem;
+}
+
+button {
+  width: 100%;
+  color: white;
+  background-color: rgb(187, 183, 183);
+  border: 1px solid rgb(65, 63, 63);
+  border-radius: 5px;
+  font-size: .8rem;
+  padding: .5rem;
 }

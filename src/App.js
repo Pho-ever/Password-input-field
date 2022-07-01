@@ -19,6 +19,8 @@ function App() {
           </label>
           <input type='password' placeholder='Enter password' />
         </div>
+
+        <button>LOGIN</button>
       </form>
     </>
   );
