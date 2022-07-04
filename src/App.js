@@ -24,12 +24,13 @@ function App() {
           </label>
           <input
             // type={showPassword ? 'text' : 'password'}
-            type="password"
+            type={showPassword ? 'text' : 'password'}
             placeholder='Enter password'
           />
           <div
             // className={`${showPassword ? 'show-password' : 'hide-password'}`}
-            className="show-password"
+            className={`${showPassword ? 'show-password' : 'hide-password'}`}
+            onClick={handlePasswordVisibility}
           ></div>
         </div>
 

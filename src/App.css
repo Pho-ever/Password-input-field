@@ -74,6 +74,19 @@ button {
   left: 55rem;
   width: 1rem;
   height: 1rem;
+  background-image: url('./images/visibility_eye.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.hide-password {
+  content: '';
+  position: relative;
+  top: -1.6rem;
+  left: 27.5rem;
+  width: 1rem;
+  height: 1rem;
   background-image: url('./images/feather-eye-off.svg');
   background-size: contain;
   background-repeat: no-repeat;
