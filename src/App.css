@@ -66,3 +66,16 @@ button {
   font-size: .8rem;
   padding: .5rem;
 }
+
+.show-password {
+  content: '';
+  position: absolute;
+  top: 35%;
+  left: 55rem;
+  width: 1rem;
+  height: 1rem;
+  background-image: url('./images/feather-eye-off.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+}

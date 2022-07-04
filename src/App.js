@@ -1,8 +1,13 @@
 import './App.css';
+import { useState } from 'react'
 
 
 
 function App() {
+  const [showPassword, setShowPassword] = useState(false);
+  const handlePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
   return (
     <>
       <form className="form">
@@ -17,7 +22,15 @@ function App() {
           <label>
             Password:
           </label>
-          <input type='password' placeholder='Enter password' />
+          <input
+            // type={showPassword ? 'text' : 'password'}
+            type="password"
+            placeholder='Enter password'
+          />
+          <div
+            // className={`${showPassword ? 'show-password' : 'hide-password'}`}
+            className="show-password"
+          ></div>
         </div>
 
         <button>LOGIN</button>
